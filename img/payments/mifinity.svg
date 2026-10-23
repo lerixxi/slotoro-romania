@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="136" height="46" viewBox="0 0 136 46" role="img" aria-label="MiFinity">
+  <rect x="7" y="10" width="30" height="26" rx="7" fill="#121b5f"/>
+  <path d="M14 29V17h5l3 5 3-5h5v12h-5v-6l-3 5-3-5v6h-5Z" fill="#fff"/>
+  <text x="45" y="29" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#121b5f">MIFINITY</text>
+</svg>

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="132" height="46" viewBox="0 0 132 46" role="img" aria-label="Bitcoin">
+  <circle cx="23" cy="23" r="16" fill="#f7931a"/>
+  <text x="23" y="30" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#fff">B</text>
+  <text x="48" y="29" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#242424">BITCOIN</text>
+</svg>
