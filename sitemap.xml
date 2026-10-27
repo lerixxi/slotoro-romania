@@ -1,7 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://lerixxi.github.io/slotoro-romania/</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://lerixxi.github.io/slotoro-romania/terms.html</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://lerixxi.github.io/slotoro-romania/privacy.html</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://lerixxi.github.io/slotoro-romania/cookie-policy.html</loc><lastmod>2026-10-23</lastmod></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://lerixxi.github.io/slotoro-romania/</loc>
+    <lastmod>2026-10-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lerixxi.github.io/slotoro-casino/"/>
+    <xhtml:link rel="alternate" hreflang="pl-PL" href="https://lerixxi.github.io/slotoro-polska/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://lerixxi.github.io/slotoro-deutschland/"/>
+    <xhtml:link rel="alternate" hreflang="bg-BG" href="https://lerixxi.github.io/slotoro-bulgaria/"/>
+    <xhtml:link rel="alternate" hreflang="it-IT" href="https://lerixxi.github.io/slotoro-italia/"/>
+    <xhtml:link rel="alternate" hreflang="ro-RO" href="https://lerixxi.github.io/slotoro-romania/"/>
+    <xhtml:link rel="alternate" hreflang="el-GR" href="https://lerixxi.github.io/slotoro-hellas/"/>
+    <xhtml:link rel="alternate" hreflang="lt-LT" href="https://lerixxi.github.io/slotoro-lietuva/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lerixxi.github.io/slotoro-casino/"/>
+  </url>
+  <url>
+    <loc>https://lerixxi.github.io/slotoro-romania/terms.html</loc>
+    <lastmod>2026-10-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lerixxi.github.io/slotoro-casino/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="pl-PL" href="https://lerixxi.github.io/slotoro-polska/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://lerixxi.github.io/slotoro-deutschland/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="bg-BG" href="https://lerixxi.github.io/slotoro-bulgaria/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="it-IT" href="https://lerixxi.github.io/slotoro-italia/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="ro-RO" href="https://lerixxi.github.io/slotoro-romania/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="el-GR" href="https://lerixxi.github.io/slotoro-hellas/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="lt-LT" href="https://lerixxi.github.io/slotoro-lietuva/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lerixxi.github.io/slotoro-casino/terms.html"/>
+  </url>
+  <url>
+    <loc>https://lerixxi.github.io/slotoro-romania/privacy.html</loc>
+    <lastmod>2026-10-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lerixxi.github.io/slotoro-casino/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="pl-PL" href="https://lerixxi.github.io/slotoro-polska/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://lerixxi.github.io/slotoro-deutschland/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="bg-BG" href="https://lerixxi.github.io/slotoro-bulgaria/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="it-IT" href="https://lerixxi.github.io/slotoro-italia/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="ro-RO" href="https://lerixxi.github.io/slotoro-romania/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="el-GR" href="https://lerixxi.github.io/slotoro-hellas/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="lt-LT" href="https://lerixxi.github.io/slotoro-lietuva/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lerixxi.github.io/slotoro-casino/privacy.html"/>
+  </url>
+  <url>
+    <loc>https://lerixxi.github.io/slotoro-romania/cookie-policy.html</loc>
+    <lastmod>2026-10-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lerixxi.github.io/slotoro-casino/cookie-policy.html"/>
+    <xhtml:link rel="alternate" hreflang="pl-PL" href="https://lerixxi.github.io/slotoro-polska/cookie-policy.html"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://lerixxi.github.io/slotoro-deutschland/cookie-policy.html"/>
+    <xhtml:link rel="alternate" hreflang="bg-BG" href="https://lerixxi.github.io/slotoro-bulgaria/cookie-policy.html"/>
+    <xhtml:link rel="alternate" hreflang="it-IT" href="https://lerixxi.github.io/slotoro-italia/cookie-policy.html"/>
+    <xhtml:link rel="alternate" hreflang="ro-RO" href="https://lerixxi.github.io/slotoro-romania/cookie-policy.html"/>
+    <xhtml:link rel="alternate" hreflang="el-GR" href="https://lerixxi.github.io/slotoro-hellas/cookie-policy.html"/>
+    <xhtml:link rel="alternate" hreflang="lt-LT" href="https://lerixxi.github.io/slotoro-lietuva/cookie-policy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lerixxi.github.io/slotoro-casino/cookie-policy.html"/>
+  </url>
 </urlset>

@@ -1268,3 +1268,16 @@
     font-size: 11px !important;
   }
 }
+
+/* GEO-LINKS: country switcher in the footer (shared across SLOTORO satellites) */
+.geo-links{margin:28px 0 8px;padding:20px;border:1px solid rgba(180,166,214,.18);border-radius:12px;background:rgba(44,34,69,.45)}
+.geo-links__title{margin:0 0 14px;font-size:14px;font-weight:700;letter-spacing:.02em;text-align:center;color:var(--c-text,#fff)}
+.geo-links__list{display:flex;flex-wrap:wrap;justify-content:center;gap:8px;margin:0;padding:0;list-style:none}
+.geo-links__item{display:inline-flex;align-items:center;gap:8px;min-height:36px;padding:7px 14px;border:1px solid rgba(180,166,214,.22);border-radius:8px;background:var(--c-surface,#1a1033);color:var(--c-text,#fff);font-size:13px;font-weight:600;line-height:1.2;text-decoration:none;white-space:nowrap;transition:border-color .15s,color .15s,background-color .15s}
+a.geo-links__item:hover,a.geo-links__item:focus-visible{border-color:var(--c-accent,#ffd700);color:var(--c-accent,#ffd700);outline:none}
+.geo-links__item.is-current{border-color:var(--c-accent,#ffd700);background:rgba(255,215,0,.08);color:var(--c-accent,#ffd700);cursor:default}
+.geo-links__flag{flex:none;width:18px;height:18px;border-radius:50%;box-shadow:0 0 0 1px rgba(255,255,255,.18)}
+@media (max-width:480px){.geo-links{padding:16px 12px}.geo-links__title{text-align:left}.geo-links__list{justify-content:flex-start}.geo-links__item{font-size:12px;padding:6px 10px}}
+/* long localized copyright lines must wrap on phones instead of widening the page */
+@media (max-width:600px){[data-component="footer"] [class$="-copy"]{white-space:normal;flex-wrap:wrap;justify-content:center;text-align:center}}
+/* /GEO-LINKS */
