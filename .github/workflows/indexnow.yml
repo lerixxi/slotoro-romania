@@ -1,0 +1,30 @@
+# Notifies IndexNow search engines (Bing, Yandex, Seznam, Naver…) about every URL in this site's sitemap
+# after each update. The key file is published at the root site lerixxi.github.io.
+name: IndexNow
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  submit:
+    runs-on: ubuntu-latest
+    env:
+      INDEXNOW_KEY: eaa3ff9951b5ac4f1838bb0d83e9d518
+      SITE_URL: https://lerixxi.github.io/${{ github.event.repository.name }}/
+    steps:
+      - name: Wait for GitHub Pages deployment
+        run: sleep 120
+
+      - name: Submit sitemap URLs to IndexNow
+        run: |
+          urls=$(curl -fsSL "${SITE_URL}sitemap.xml" | grep -o '<loc>[^<]*</loc>' | sed -e 's/<loc>//' -e 's#</loc>##' | jq -R . | jq -sc .)
+          echo "URLs: $urls"
+          body=$(jq -nc --arg key "$INDEXNOW_KEY" --argjson urls "$urls" \
+            '{host: "lerixxi.github.io", key: $key, keyLocation: ("https://lerixxi.github.io/" + $key + ".txt"), urlList: $urls}')
+          code=$(curl -sS -o response.txt -w '%{http_code}' -X POST https://api.indexnow.org/indexnow \
+            -H 'Content-Type: application/json; charset=utf-8' -d "$body")
+          echo "IndexNow HTTP $code"; cat response.txt || true
+          # 200 = accepted, 202 = accepted while the key is being validated
+          [ "$code" = "200" ] || [ "$code" = "202" ]
